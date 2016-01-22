@@ -1,0 +1,118 @@
+Script started on Thu Jan 21 17:28:18 2016
+]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..sample/public]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public[0m[27m[24m[J[01;32m➜ [01;32m [36mpublic [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=sscripts/[?1l>
+]2;scripts/]1;scripts/[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..ublic/scripts]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public/scripts[0m[27m[24m[J[01;32m➜ [01;32m [36mscripts [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ttouch app.js[?1l>
+]2;touch app.js]1;touch[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..ublic/scripts]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public/scripts[0m[27m[24m[J[01;32m➜ [01;32m [36mscripts [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=...[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..sample/public]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public[0m[27m[24m[J[01;32m➜ [01;32m [36mpublic [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ppup  mmkdir templates[?1l>
+]2;mkdir templates]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..sample/public]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public[0m[27m[24m[J[01;32m➜ [01;32m [36mpublic [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ttemplates[1m/[0m[0m [?1l>
+]2;templates]1;templates[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..lic/templates]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public/templates[0m[27m[24m[J[01;32m➜ [01;32m [36mtemplates [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=ttouch home.html[?1l>
+]2;touch home.html]1;touch[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..lic/templates]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public/templates[0m[27m[24m[J[01;32m➜ [01;32m [36mtemplates [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=...[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..sample/public]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample/public[0m[27m[24m[J[01;32m➜ [01;32m [36mpublic [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=...[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..p/mean_sample]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample[0m[27m[24m[J[01;32m➜ [01;32m [36mmean_sample [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=nnodemon[?1l>
+]2;nodemon]1;nodemon[33m[nodemon] 1.8.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+
+/Users/davesloan/develop/mean_sample/node_modules/mongoose/node_modules/mongodb/lib/server.js:236
+        process.nextTick(function() { throw err; })
+                                      ^
+Error: connect ECONNREFUSED 127.0.0.1:27017
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+^[[A^C[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..p/mean_sample]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample[0m[27m[24m[J[01;32m➜ [01;32m [36mmean_sample [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=nodemon[?1l>
+]2;nodemon]1;nodemon[33m[nodemon] 1.8.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/davesloan/develop/mean_sample/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/application.js:569:12)
+    at ServerResponse.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/response.js:961:7)
+    at /Users/davesloan/develop/mean_sample/server.js:26:6
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/davesloan/develop/mean_sample/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/davesloan/develop/mean_sample/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/application.js:569:12)
+    at ServerResponse.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/response.js:961:7)
+    at /Users/davesloan/develop/mean_sample/server.js:26:6
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/davesloan/develop/mean_sample/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/davesloan/develop/mean_sample/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/application.js:569:12)
+    at ServerResponse.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/response.js:961:7)
+    at /Users/davesloan/develop/mean_sample/server.js:26:6
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/davesloan/develop/mean_sample/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/davesloan/develop/mean_sample/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/application.js:569:12)
+    at ServerResponse.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/response.js:961:7)
+    at /Users/davesloan/develop/mean_sample/server.js:26:6
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/davesloan/develop/mean_sample/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/davesloan/develop/mean_sample/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/application.js:569:12)
+    at ServerResponse.render (/Users/davesloan/develop/mean_sample/node_modules/express/lib/response.js:961:7)
+    at /Users/davesloan/develop/mean_sample/server.js:26:6
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:277:22
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:349:14)
+    at param (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/Users/davesloan/develop/mean_sample/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
