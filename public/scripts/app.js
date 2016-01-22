@@ -23,7 +23,8 @@ app.config(['$routeProvider', '$locationProvider',
 app.factory('Todo', ['$resource', function ($resource) {
 	return $resource('/api/todos/:id', { id: '@_id' },
 	{
-		'update': { method:'PUT' }
+		'update': { method:'PUT' },
+		// 'query' : { method: 'GET', isArray: false }
 	});
 
     // $resource function exposes all five RESTful methods/routes
@@ -38,6 +39,7 @@ app.factory('Todo', ['$resource', function ($resource) {
 app.controller('TodosIndexCtrl', ['$scope', 'Todo', function ($scope, Todo) {
 	$scope.todos = Todo.query();
 	$scope.todo = {};
+	console.log($scope.todos);
 
 	$scope.createTodo = function() {
 		var newTodo = Todo.save($scope.todo);

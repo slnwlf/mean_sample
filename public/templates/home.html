@@ -35,10 +35,10 @@
 						<!-- form to edit todo -->
 						<form ng-show="todo.editForm" ng-submit="updateTodo(todo)">
 							<div class="form-group">
-								<input type="text" ng-model="todo.title" class="form-control" placeholder="What do you need to do?">
+								<input type="text" ng-model="todo.title" class="form-control" placeholder="Task">
 							</div>
 							<div class="form-group">
-								<textarea ng-model="todo.description" class="form-control" placeholder="Describe the task."></textarea>
+								<textarea ng-model="todo.description" class="form-control" placeholder="Description"></textarea>
 							</div>
 							<input type="submit" value="Save To Do" class="btn btn-default">
 						</form>

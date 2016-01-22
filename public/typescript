@@ -345,3 +345,94 @@ ReferenceError: Todo is not defined
     at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
     at /Users/davesloan/develop/mean_sample/node_modules/body-parser/lib/read.js:129:5
     at invokeCallback (/Users/davesloan/develop/mean_sample/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+module.js:339
+    throw err;
+    ^
+
+Error: Cannot find module './models/todo'
+    at Function.Module._resolveFilename (module.js:337:15)
+    at Function.Module._load (module.js:287:25)
+    at Module.require (module.js:366:17)
+    at require (module.js:385:17)
+    at Object.<anonymous> (/Users/davesloan/develop/mean_sample/server.js:24:12)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)
+    at Function.Module.runMain (module.js:467:10)
+    at startup (node.js:134:18)
+    at node.js:961:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+ReferenceError: Todo is not defined
+    at /Users/davesloan/develop/mean_sample/server.js:49:20
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at serveStatic (/Users/davesloan/develop/mean_sample/node_modules/express/node_modules/serve-static/index.js:74:16)
+    at Layer.handle [as handle_request] (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:312:13)
+    at /Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:330:12)
+    at next (/Users/davesloan/develop/mean_sample/node_modules/express/lib/router/index.js:271:10)
+    at /Users/davesloan/develop/mean_sample/node_modules/body-parser/lib/read.js:129:5
+    at invokeCallback (/Users/davesloan/develop/mean_sample/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+^C[1m[7m%[27m[1m[0m                                                                                                                      ]2;davesloan@Megs-MacBook-Pro-2]1;..p/mean_sample]7;file://Megs-MacBook-Pro-2.local/Users/davesloan/develop/mean_sample[0m[27m[24m[J[01;32m➜ [01;32m [36mmean_sample [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=nodemon[?1l>
+]2;nodemon]1;nodemon[33m[nodemon] 1.8.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+server started

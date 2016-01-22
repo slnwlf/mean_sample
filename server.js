@@ -21,18 +21,16 @@ app.set('view engine', 'hbs');
 mongoose.connect('mongodb://localhost/mean_sample');
 
 // require Todo model
-// var Todo = require('./models/todo');
+var Todo = require('./models/todo');
 
 // turn on port 3000
 app.listen(3000, function() {
 	console.log('server started');
 });
 
-app.get('*', function (req, res) {
-	res.render('index');
-});
 
 // API routes
+// get route with json
 
 app.get('/api/todos', function (req, res) {
 	Todo.find(function (err, allTodos) {
