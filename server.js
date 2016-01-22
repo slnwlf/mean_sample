@@ -14,8 +14,14 @@ app.use(bodyParser.json());
 // allow static files by creating a public folder
 app.use(express.static(__dirname + '/public'));
 
+// set view engine
+app.set('view engine', 'hbs');
+
 // set up mongodb connection
 mongoose.connect('mongodb://localhost/mean_sample');
+
+// require Todo model
+// var Todo = require('./models/todo');
 
 // turn on port 3000
 app.listen(3000, function() {
@@ -38,8 +44,11 @@ app.get('/api/todos', function (req, res) {
 	});
 });
 
+// create new todo
 app.post('/api/todos', function (req, res) {
 	var newTodo = new Todo(req.body);
+
+// save new todo in db
 	newTodo.save(function (err, savedTodo) {
 		if (err) {
 			res.status(500).json({ error: err.message });
@@ -50,15 +59,58 @@ app.post('/api/todos', function (req, res) {
 });
 
 app.get('/api/todos/:id', function (req, res) {
+	// get todo id from url params - as in req.params
+	var todoId = req.params.id;
 
+	// find todo in db by id
+	Todo.findOne({ _id: todoId }, function (err, foundTodo){
+		if (err) {
+			res.status(500).json({ error: err.message });
+		} else {
+			res.json(foundTodo);
+		}
+	});
 });
 
+// update todo
 app.put('/api/todos/:id', function (req, res) {
+	// get todo id from url params
+	var todoId = req.params.id;
 
+	// find todo in db by id
+	Todo.findOne({ _id: todoId }, function (err, foundTodo) {
+		if (err) {
+			res.status(500).json({ error: err.message });
+		} else {
+			// update the todo's attributes
+			foundTodo.title = req.body.title;
+			foundTodo.description = req.body.description;
+			foundTodo.done = req.body.done;
+
+			// save updated todo in db
+			foundTodo.save(function (err, savedTodo) {
+				if (err) {
+					res.status(500).json({ error: err.message });
+				} else {
+					res.json(savedTodo);
+				}
+			});
+		}
+	});
 });
 
 app.delete('/api/todos/:id', function (req, res) {
+	// get todo id from url params
+	var todoId = req.params.id;
 
+	// find todo in db by id and remove
+	Todo.findOneAndRemove({ _id: todoId }, function (err, deletedTodo) {
+		if (err) {
+			res.status(500).json({ error: err.message });
+		} else {
+			res.json(deletedTodo);
+		}
+	});
 });
 
 // initiate index.hbs when a route is requested
