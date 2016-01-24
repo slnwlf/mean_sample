@@ -5,6 +5,14 @@ var parseRequestHeaders = {
   'X-Parse-REST-API-Key': 'iPBse1TGWDG2YiT6s17Z9tNGTuaOj0kq7ca3LIyP'
 };
 
+Parse.initialize("an84MXD5aeBM7P0XUtfNIJd7vwzOLilSUkxCR2M1", "iPBse1TGWDG2YiT6s17Z9tNGTuaOj0kq7ca3LIyP");
+
+var TestObject = Parse.Object.extend("TestObject");
+var testObject = new TestObject();
+testObject.save({foo: "bar"}).then(function(object) {
+  alert("yay! it worked");
+});
+
 app.config(['$routeProvider', '$locationProvider',
 	function ($routeProvider, $locationProvider) {
 
