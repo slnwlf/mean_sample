@@ -1,5 +1,10 @@
 var app = angular.module('sampleApp', ['ngRoute', 'ngResource']);
 
+var parseRequestHeaders = {
+  'X-Parse-Application-Id': 'an84MXD5aeBM7P0XUtfNIJd7vwzOLilSUkxCR2M1',
+  'X-Parse-REST-API-Key': 'iPBse1TGWDG2YiT6s17Z9tNGTuaOj0kq7ca3LIyP'
+};
+
 app.config(['$routeProvider', '$locationProvider',
 	function ($routeProvider, $locationProvider) {
 
@@ -21,9 +26,11 @@ app.config(['$routeProvider', '$locationProvider',
 	]);
 
 app.factory('Todo', ['$resource', function ($resource) {
-	return $resource('/api/todos/:id', { id: '@_id' },
+	return $resource('https://api.parse.com/1/classes/Todo:id', { id: '@_id' },
 	{
-		'update': { method:'PUT' },
+		'update': { 
+			method:'PUT',
+			headers: parseRequestHeaders }
 		// 'query' : { method: 'GET', isArray: false }
 	});
 

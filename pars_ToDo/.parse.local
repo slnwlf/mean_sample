@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "ng-TodoDo"
+    },
+    "ng-TodoDo": {
+      "applicationId": "an84MXD5aeBM7P0XUtfNIJd7vwzOLilSUkxCR2M1"
+    }
+  }
+}
