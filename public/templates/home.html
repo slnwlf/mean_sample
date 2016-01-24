@@ -1,16 +1,16 @@
 <div class="row">
-	<div class="col-md-6 col-md-offset-3">
+	<div class="col-md-3 col-md-offset-4">
 		<!-- form to create new todo -->
 		<form ng-submit="createTodo()">
 			<div class="form-group">
-				<label for="todo_title">New To Do</label>
-				<input type="text" ng-model="todo.title" class="form-control" id="todo_title" placeholder="What do you need to do?" autofocus>
+				<label for="todo_title">To Do</label>
+				<input type="text" ng-model="todo.title" class="form-control" id="todo_title" placeholder="Task" autofocus>
 			</div>
 			<div class="form-group">
-				<label for="todo_description">Description</label>
-				<textarea ng-model="todo.description" class="form-control" id="todo_description" placeholder="Describe the task."></textarea>
+				<label for="todo_description">Task description</label>
+				<textarea ng-model="todo.description" class="form-control" id="todo_description" placeholder="Description"></textarea>
 			</div>
-			<input type="submit" value="Add To Do" class="btn btn-default">
+			<input type="submit" value="Add To Do" class="btn btn-primary text-center center-block">
 		</form>
 		
 		<!-- show all todos -->
@@ -18,7 +18,7 @@
 			<hr>
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Dave's To Do List</h3>
+					<h3 class="panel-title text-center">Dave's To Do List</h3>
 				</div>
 				<ul class="list-group">
 					<li ng-repeat="todo in todos" class="list-group-item">
@@ -40,7 +40,7 @@
 							<div class="form-group">
 								<textarea ng-model="todo.description" class="form-control" placeholder="Description"></textarea>
 							</div>
-							<input type="submit" value="Save To Do" class="btn btn-default">
+							<input type="submit" value="Update" class="btn btn-primary">
 						</form>
 					</li>
 				</ul>
