@@ -34,7 +34,7 @@ app.config(['$routeProvider', '$locationProvider',
 	]);
 
 app.factory('Todo', ['$resource', function ($resource) {
-	return $resource('https://api.parse.com/1/classes/Todo:id', { id: '@_id' },
+	return $resource('https://api.parse.com/1/classes/Todo/:todoId', { todoId: '@todoid' },
 	{
 		'update': { 
 			method:'PUT',
